@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: red;
+  color: white;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+header nav ul {
+  list-style-type: none;
+  float: right;
+  margin-right: 2rem;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+#hero {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+}
+
+#hero .btn {
+  background-color: #e74c3c;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#about, #skills, #projects, #contact {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #f4f4f4;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card .btn {
+  background-color: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 1rem 2rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Task Manager",
+      "description": "A simple task manager that allows users to add, delete, and mark tasks as complete using local storage.",
+      "link": "https://your-task-manager-link.com",
+      "id": "cf11"
+    },
+    {
+      "title": null,
+      "description": null,
+      "link": null,
+      "id": "081e"
+    },
+    {
+      "id": "25de",
+      "title": "linkedin",
+      "link": "https://medium.com/@abdikafimohamud126",
+      "description": "read what i have post in LinkedIn"
+    },
+    {
+      "id": "cf20",
+      "title": "project",
+      "link": "https://www.bing.com/search?filters=ufn%3a%22Unsplash%22+sid%3a%22e0667091-d414-1c0a-30f3-d6ac0dbe6180%22&qs=MB&pq=un&sk=CSYN1&sc=16-2&pglt=299&q=unsplash&cvid=75463e4a571c44c9972c8ad8066566fa&gs_lcrp=EgRlZGdlKgYIARAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAuGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEEUYPDIGCAcQRRg8MgYICBBFGD3SAQg3NjgwajBqMagCBLACAQ&FORM=ANSPA1&PC=U531",
+      "description": "unsplashed view"
+    }
+  ]
+}
